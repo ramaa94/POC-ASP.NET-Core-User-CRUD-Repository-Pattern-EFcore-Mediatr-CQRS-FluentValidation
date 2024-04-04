@@ -1,4 +1,4 @@
 ﻿global using Microsoft.EntityFrameworkCore;
-global using UserApi.DAL.Interfaces;
+global using UserApi.DAL.Repositories.contracts;
 global using UserApi.DAL.Models;
-
+global using UserApi.DAL.Repositories;

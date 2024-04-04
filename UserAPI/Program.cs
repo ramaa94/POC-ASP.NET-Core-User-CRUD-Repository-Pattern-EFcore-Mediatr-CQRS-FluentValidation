@@ -1,7 +1,7 @@
 
 
 
-using UserApi.DAL.Interfaces;
+using UserApi.DAL.Repositories.contracts;
 using UserAPI.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,7 +20,9 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<PocDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ILeaveTypeRepository, LeaveTypeRepository>();
 builder.Services.AddScoped<IUserService,UserService>();
+builder.Services.AddScoped<ILeaveTypeService, LeaveTypeService>();
 
 var app = builder.Build();
 

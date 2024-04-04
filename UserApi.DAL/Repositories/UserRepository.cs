@@ -2,11 +2,11 @@
 
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
+using UserApi.DAL.Repositories;
 
 namespace UserApi.DAL.Implementations;
 
 public class UserRepository : IUserRepository
-
 {
     private readonly PocDbContext _context;
 
@@ -29,6 +29,15 @@ public class UserRepository : IUserRepository
 
     _context.Users.Remove(user);
     return await _context.SaveChangesAsync() > 0;
+    }
+
+    public async Task<bool> DeleteAsyncUser(User user)
+    {
+        var user1 = await _context.Users.FindAsync(user);
+        if (user1 == null) return false;
+
+        _context.Users.Remove(user);
+        return await _context.SaveChangesAsync() > 0;
     }
 
     public EntityEntry<User> Entry(User user)
@@ -59,5 +68,12 @@ public class UserRepository : IUserRepository
     {
     _context.Users.Update(user);
     return await _context.SaveChangesAsync() > 0;
+    }
+
+    public async Task<bool> IsUserUnique(Guid id)
+    {
+        var userExists =await _context.Users.FindAsync(id);
+         return userExists == null;
+        ;
     }
 }

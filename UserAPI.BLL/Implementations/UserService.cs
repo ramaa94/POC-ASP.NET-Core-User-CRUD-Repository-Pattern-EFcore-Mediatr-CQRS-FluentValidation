@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using UserApi.DAL.Implementations;
-using UserApi.DAL.Interfaces;
+using UserApi.DAL.Repositories.contracts;
 using UserApi.DAL.Models;
 using Microsoft.EntityFrameworkCore.Design;
 

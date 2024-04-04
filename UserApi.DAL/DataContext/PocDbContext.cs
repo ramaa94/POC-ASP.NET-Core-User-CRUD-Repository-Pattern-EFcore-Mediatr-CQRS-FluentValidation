@@ -1,11 +1,15 @@
 
 
 
+using HR.LeaveManagement.Domain;
+
 namespace UserApi.DAL;
 
 public class PocDbContext : DbContext
 {
     public DbSet<User> Users { get; set; }
+    public DbSet<LeaveType> LeaveTypes { get; set; }
+
     public PocDbContext(DbContextOptions option) : base(option) { }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
