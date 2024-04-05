@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using HR.LeaveManagement.Application.Contracts.Persistence;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -24,7 +23,7 @@ namespace HR.LeaveManagement.Application.Features.LeaveType.Queries.GetAllLeaveT
         {
             //what we did 
             // query db,
-            var leaveTypes = await _leaveTypeRepository.GetAsync();
+            var leaveTypes = await _leaveTypeRepository.GetAllAsync();
             // convert data objs to dto objs,
            var data= _mapper.Map<List<LeaveTypeDto>>(leaveTypes);
             // return list of dto objects

@@ -42,7 +42,7 @@ public class LeaveTypeRepository : ILeaveTypeRepository
             await _context.SaveChangesAsync();
         }
     }
-
+   
     public Task<bool> IsLeaveTypeUnique(string name)
     {
         throw new NotImplementedException();

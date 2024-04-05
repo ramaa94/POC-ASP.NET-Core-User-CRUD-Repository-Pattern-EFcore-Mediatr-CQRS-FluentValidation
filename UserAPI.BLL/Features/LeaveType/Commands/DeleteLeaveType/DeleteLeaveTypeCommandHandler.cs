@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using FluentValidation;
-using HR.LeaveManagement.Application.Contracts.Persistence;
 using HR.LeaveManagement.Application.Features.LeaveType.Commands.CreateLeaveType;
 using MediatR;
 using System;
@@ -26,7 +25,7 @@ namespace HR.LeaveManagement.Application.Features.LeaveType.Commands.DeleteLeave
         {
             
             var leaveTypeToDelete = _mapper.Map<Domain.LeaveType>(request);
-            await _leaveTypeRepository.DeleteAsync(leaveTypeToDelete);
+            await _leaveTypeRepository.DeleteAsync(leaveTypeToDelete.Id);
 
 
             return Unit.Value;

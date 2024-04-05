@@ -3,28 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi.bll\\features\\user\\query\\getallusers\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|solutionrelative:userapi.bll\\features\\user\\query\\getallusers\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi.bll\\features\\user\\query\\getallusers\\getallusersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|solutionrelative:userapi.bll\\features\\user\\query\\getallusers\\getallusersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi.bll\\features\\user\\commands\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|solutionrelative:userapi.bll\\features\\user\\commands\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi.bll\\implementations\\leavetypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|solutionrelative:userapi.bll\\implementations\\leavetypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89571F1A-9B71-4EBC-B841-83B807879D67}|UserApi.DAL\\UserApi.DAL.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi.dal\\repositories\\contracts\\ileavetyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89571F1A-9B71-4EBC-B841-83B807879D67}|UserApi.DAL\\UserApi.DAL.csproj|solutionrelative:userapi.dal\\repositories\\contracts\\ileavetyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89571F1A-9B71-4EBC-B841-83B807879D67}|UserApi.DAL\\UserApi.DAL.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi.dal\\repositories\\leavetyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89571F1A-9B71-4EBC-B841-83B807879D67}|UserApi.DAL\\UserApi.DAL.csproj|solutionrelative:userapi.dal\\repositories\\leavetyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89571F1A-9B71-4EBC-B841-83B807879D67}|UserApi.DAL\\UserApi.DAL.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi.dal\\repositories\\contracts\\ileavetyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89571F1A-9B71-4EBC-B841-83B807879D67}|UserApi.DAL\\UserApi.DAL.csproj|solutionrelative:userapi.dal\\repositories\\contracts\\ileavetyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi.bll\\features\\leavetype\\commands\\deleteleavetype\\deleteleavetypecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|solutionrelative:userapi.bll\\features\\leavetype\\commands\\deleteleavetype\\deleteleavetypecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi.bll\\features\\leavetype\\commands\\createleavetype\\createleavetypecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|solutionrelative:userapi.bll\\features\\leavetype\\commands\\createleavetype\\createleavetypecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi.bll\\userapi.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|solutionrelative:userapi.bll\\userapi.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{069CF386-5543-420B-BC71-3F1096C0CCDB}|UserAPI\\UserAPI.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{069CF386-5543-420B-BC71-3F1096C0CCDB}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi.bll\\features\\user\\commands\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|solutionrelative:userapi.bll\\features\\user\\commands\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi.bll\\features\\leavetype\\queries\\getallleavetypes\\getleavetypesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|solutionrelative:userapi.bll\\features\\leavetype\\queries\\getallleavetypes\\getleavetypesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi.bll\\features\\leavetype\\commands\\deleteleavetype\\deleteleavetypevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|solutionrelative:userapi.bll\\features\\leavetype\\commands\\deleteleavetype\\deleteleavetypevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{069CF386-5543-420B-BC71-3F1096C0CCDB}|UserAPI\\UserAPI.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi\\userapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{069CF386-5543-420B-BC71-3F1096C0CCDB}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\userapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi.bll\\features\\user\\query\\getallusers\\getallusersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|solutionrelative:userapi.bll\\features\\user\\query\\getallusers\\getallusersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi.bll\\features\\user\\query\\getallusers\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|solutionrelative:userapi.bll\\features\\user\\query\\getallusers\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi.bll\\implementations\\leavetypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|solutionrelative:userapi.bll\\implementations\\leavetypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89571F1A-9B71-4EBC-B841-83B807879D67}|UserApi.DAL\\UserApi.DAL.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi.dal\\datacontext\\pocdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi.bll\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|solutionrelative:userapi.bll\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi.bll\\features\\leavetype\\commands\\createleavetype\\createleavetypecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|solutionrelative:userapi.bll\\features\\leavetype\\commands\\createleavetype\\createleavetypecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi.bll\\features\\errormessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -135,14 +159,6 @@
       "RelativeMoniker": "D:0:0:{89571F1A-9B71-4EBC-B841-83B807879D67}|UserApi.DAL\\UserApi.DAL.csproj|solutionrelative:userapi.dal\\models\\leavetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{069CF386-5543-420B-BC71-3F1096C0CCDB}|UserAPI\\UserAPI.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi\\userapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{069CF386-5543-420B-BC71-3F1096C0CCDB}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\userapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi.bll\\userapi.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0DE50FBB-CC2E-4BEA-B366-2376BB81A93B}|UserAPI.BLL\\UserAPI.BLL.csproj|solutionrelative:userapi.bll\\userapi.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{89571F1A-9B71-4EBC-B841-83B807879D67}|UserApi.DAL\\UserApi.DAL.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi.dal\\userapi.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{89571F1A-9B71-4EBC-B841-83B807879D67}|UserApi.DAL\\UserApi.DAL.csproj|solutionrelative:userapi.dal\\userapi.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -200,10 +216,6 @@
       "RelativeMoniker": "D:0:0:{89571F1A-9B71-4EBC-B841-83B807879D67}|UserApi.DAL\\UserApi.DAL.csproj|solutionrelative:userapi.dal\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{069CF386-5543-420B-BC71-3F1096C0CCDB}|UserAPI\\UserAPI.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{069CF386-5543-420B-BC71-3F1096C0CCDB}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{069CF386-5543-420B-BC71-3F1096C0CCDB}|UserAPI\\UserAPI.csproj|c:\\users\\rama\\desktop\\pc\\poc-asp.net-core-user-crud-repository-pattern-ef-core-\\userapi\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{069CF386-5543-420B-BC71-3F1096C0CCDB}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -219,7 +231,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -230,47 +242,137 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "DeleteLeaveTypeCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\LeaveType\\Commands\\DeleteLeaveType\\DeleteLeaveTypeCommandHandler.cs",
+              "RelativeDocumentMoniker": "UserAPI.BLL\\Features\\LeaveType\\Commands\\DeleteLeaveType\\DeleteLeaveTypeCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\LeaveType\\Commands\\DeleteLeaveType\\DeleteLeaveTypeCommandHandler.cs",
+              "RelativeToolTip": "UserAPI.BLL\\Features\\LeaveType\\Commands\\DeleteLeaveType\\DeleteLeaveTypeCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T08:59:28.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetLeaveTypesQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\LeaveType\\Queries\\GetAllLeaveTypes\\GetLeaveTypesQueryHandler.cs",
+              "RelativeDocumentMoniker": "UserAPI.BLL\\Features\\LeaveType\\Queries\\GetAllLeaveTypes\\GetLeaveTypesQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\LeaveType\\Queries\\GetAllLeaveTypes\\GetLeaveTypesQueryHandler.cs",
+              "RelativeToolTip": "UserAPI.BLL\\Features\\LeaveType\\Queries\\GetAllLeaveTypes\\GetLeaveTypesQueryHandler.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAArwBkAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T08:58:32.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usings.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI\\Usings.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Usings.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI\\Usings.cs",
+              "RelativeToolTip": "UserAPI\\Usings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T08:58:02.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ILeaveTypeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\Repositories\\contracts\\ILeaveTypeRepository.cs",
+              "RelativeDocumentMoniker": "UserApi.DAL\\Repositories\\contracts\\ILeaveTypeRepository.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\Repositories\\contracts\\ILeaveTypeRepository.cs",
+              "RelativeToolTip": "UserApi.DAL\\Repositories\\contracts\\ILeaveTypeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T11:20:09.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "LeaveTypeRepository.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\Repositories\\LeaveTypeRepository.cs",
               "RelativeDocumentMoniker": "UserApi.DAL\\Repositories\\LeaveTypeRepository.cs",
               "ToolTip": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\Repositories\\LeaveTypeRepository.cs",
               "RelativeToolTip": "UserApi.DAL\\Repositories\\LeaveTypeRepository.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwA4AAAAFAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAnwCwAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T11:20:09.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T11:20:09.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "CreateUserCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\User\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
               "RelativeDocumentMoniker": "UserAPI.BLL\\Features\\User\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
               "ToolTip": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\User\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
               "RelativeToolTip": "UserAPI.BLL\\Features\\User\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABiAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBIAAABiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T11:19:59.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T11:19:59.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserAPI.BLL.csproj",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\UserAPI.BLL.csproj",
+              "RelativeDocumentMoniker": "UserAPI.BLL\\UserAPI.BLL.csproj",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\UserAPI.BLL.csproj",
+              "RelativeToolTip": "UserAPI.BLL\\UserAPI.BLL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-29T12:47:38.239Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LeaveTypeService.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Implementations\\LeaveTypeService.cs",
-              "RelativeDocumentMoniker": "UserAPI.BLL\\Implementations\\LeaveTypeService.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Implementations\\LeaveTypeService.cs",
-              "RelativeToolTip": "UserAPI.BLL\\Implementations\\LeaveTypeService.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAwwBgAAAAkAAAA",
+              "Title": "CreateLeaveTypeCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\LeaveType\\Commands\\CreateLeaveType\\CreateLeaveTypeCommandHandler.cs",
+              "RelativeDocumentMoniker": "UserAPI.BLL\\Features\\LeaveType\\Commands\\CreateLeaveType\\CreateLeaveTypeCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\LeaveType\\Commands\\CreateLeaveType\\CreateLeaveTypeCommandHandler.cs",
+              "RelativeToolTip": "UserAPI.BLL\\Features\\LeaveType\\Commands\\CreateLeaveType\\CreateLeaveTypeCommandHandler.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwB8AAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:45:06.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T12:39:55.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
+              "Title": "DeleteLeaveTypeValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\LeaveType\\Commands\\DeleteLeaveType\\DeleteLeaveTypeValidator.cs",
+              "RelativeDocumentMoniker": "UserAPI.BLL\\Features\\LeaveType\\Commands\\DeleteLeaveType\\DeleteLeaveTypeValidator.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\LeaveType\\Commands\\DeleteLeaveType\\DeleteLeaveTypeValidator.cs",
+              "RelativeToolTip": "UserAPI.BLL\\Features\\LeaveType\\Commands\\DeleteLeaveType\\DeleteLeaveTypeValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T08:59:17.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetAllUsersQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\User\\query\\GetAllUsers\\GetAllUsersQueryHandler.cs",
+              "RelativeDocumentMoniker": "UserAPI.BLL\\Features\\User\\query\\GetAllUsers\\GetAllUsersQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\User\\query\\GetAllUsers\\GetAllUsersQueryHandler.cs",
+              "RelativeToolTip": "UserAPI.BLL\\Features\\User\\query\\GetAllUsers\\GetAllUsersQueryHandler.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAwwAwAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T11:20:09.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "UsersDto.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\User\\query\\GetAllUsers\\UsersDto.cs",
               "RelativeDocumentMoniker": "UserAPI.BLL\\Features\\User\\query\\GetAllUsers\\UsersDto.cs",
@@ -278,46 +380,35 @@
               "RelativeToolTip": "UserAPI.BLL\\Features\\User\\query\\GetAllUsers\\UsersDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T11:20:09.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T11:20:09.641Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetAllUsersQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\User\\query\\GetAllUsers\\GetAllUsersQueryHandler.cs",
-              "RelativeDocumentMoniker": "UserAPI.BLL\\Features\\User\\query\\GetAllUsers\\GetAllUsersQueryHandler.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\User\\query\\GetAllUsers\\GetAllUsersQueryHandler.cs",
-              "RelativeToolTip": "UserAPI.BLL\\Features\\User\\query\\GetAllUsers\\GetAllUsersQueryHandler.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAwwBcAAAAmAAAA",
+              "DocumentIndex": 12,
+              "Title": "LeaveTypeService.cs",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Implementations\\LeaveTypeService.cs",
+              "RelativeDocumentMoniker": "UserAPI.BLL\\Implementations\\LeaveTypeService.cs",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Implementations\\LeaveTypeService.cs",
+              "RelativeToolTip": "UserAPI.BLL\\Implementations\\LeaveTypeService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAwwBgAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T11:20:09.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "WhenOpened": "2024-04-04T12:45:06.444Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ILeaveTypeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\Repositories\\contracts\\ILeaveTypeRepository.cs",
-              "RelativeDocumentMoniker": "UserApi.DAL\\Repositories\\contracts\\ILeaveTypeRepository.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\Repositories\\contracts\\ILeaveTypeRepository.cs",
-              "RelativeToolTip": "UserApi.DAL\\Repositories\\contracts\\ILeaveTypeRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T11:20:09.542Z",
-              "EditorCaption": ""
+              "DocumentIndex": 9,
+              "Title": "UserAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI\\UserAPI.csproj",
+              "RelativeDocumentMoniker": "UserAPI\\UserAPI.csproj",
+              "ToolTip": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI\\UserAPI.csproj",
+              "RelativeToolTip": "UserAPI\\UserAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-29T01:47:27.755Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "PocDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\DataContext\\PocDbContext.cs",
               "RelativeDocumentMoniker": "UserApi.DAL\\DataContext\\PocDbContext.cs",
@@ -325,12 +416,11 @@
               "RelativeToolTip": "UserApi.DAL\\DataContext\\PocDbContext.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T13:16:13.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T13:16:13.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "UserApi.DAL\\Repositories\\UserRepository.cs",
@@ -338,12 +428,11 @@
               "RelativeToolTip": "UserApi.DAL\\Repositories\\UserRepository.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T11:33:16.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T11:33:16.626Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "CreateUserValidator.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\User\\Commands\\CreateUser\\CreateUserValidator.cs",
               "RelativeDocumentMoniker": "UserAPI.BLL\\Features\\User\\Commands\\CreateUser\\CreateUserValidator.cs",
@@ -351,12 +440,11 @@
               "RelativeToolTip": "UserAPI.BLL\\Features\\User\\Commands\\CreateUser\\CreateUserValidator.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAxwBwAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:14:44.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T12:14:44.992Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\Repositories\\contracts\\IUserRepository.cs",
               "RelativeDocumentMoniker": "UserApi.DAL\\Repositories\\contracts\\IUserRepository.cs",
@@ -364,12 +452,11 @@
               "RelativeToolTip": "UserApi.DAL\\Repositories\\contracts\\IUserRepository.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAwBIAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T11:20:09.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T11:20:09.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "Usings.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Usings.cs",
               "RelativeDocumentMoniker": "UserAPI.BLL\\Usings.cs",
@@ -377,25 +464,11 @@
               "RelativeToolTip": "UserAPI.BLL\\Usings.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T11:28:49.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T11:28:49.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CreateLeaveTypeCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\LeaveType\\Commands\\CreateLeaveType\\CreateLeaveTypeCommandHandler.cs",
-              "RelativeDocumentMoniker": "UserAPI.BLL\\Features\\LeaveType\\Commands\\CreateLeaveType\\CreateLeaveTypeCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\LeaveType\\Commands\\CreateLeaveType\\CreateLeaveTypeCommandHandler.cs",
-              "RelativeToolTip": "UserAPI.BLL\\Features\\LeaveType\\Commands\\CreateLeaveType\\CreateLeaveTypeCommandHandler.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAYwB8AAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:39:55.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "ErrorMessages.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\ErrorMessages.cs",
               "RelativeDocumentMoniker": "UserAPI.BLL\\Features\\ErrorMessages.cs",
@@ -403,12 +476,11 @@
               "RelativeToolTip": "UserAPI.BLL\\Features\\ErrorMessages.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T11:20:09.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T11:20:09.24Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "GetAllUsersQuery.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\User\\query\\GetAllUsers\\GetAllUsersQuery.cs",
               "RelativeDocumentMoniker": "UserAPI.BLL\\Features\\User\\query\\GetAllUsers\\GetAllUsersQuery.cs",
@@ -416,12 +488,11 @@
               "RelativeToolTip": "UserAPI.BLL\\Features\\User\\query\\GetAllUsers\\GetAllUsersQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T11:30:31.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T11:30:31.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "BadRequestException.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\Exceptions\\BadRequestException.cs",
               "RelativeDocumentMoniker": "UserAPI.BLL\\Features\\Exceptions\\BadRequestException.cs",
@@ -429,12 +500,11 @@
               "RelativeToolTip": "UserAPI.BLL\\Features\\Exceptions\\BadRequestException.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAQwBMAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:39:41.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T12:39:41.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "UpdateUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\User\\Commands\\UpdateUser\\UpdateUserCommand.cs",
               "RelativeDocumentMoniker": "UserAPI.BLL\\Features\\User\\Commands\\UpdateUser\\UpdateUserCommand.cs",
@@ -442,12 +512,11 @@
               "RelativeToolTip": "UserAPI.BLL\\Features\\User\\Commands\\UpdateUser\\UpdateUserCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T11:20:09.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T11:20:09.116Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "CreateLeaveTypeCommand.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\LeaveType\\Commands\\CreateLeaveType\\CreateLeaveTypeCommand.cs",
               "RelativeDocumentMoniker": "UserAPI.BLL\\Features\\LeaveType\\Commands\\CreateLeaveType\\CreateLeaveTypeCommand.cs",
@@ -455,12 +524,11 @@
               "RelativeToolTip": "UserAPI.BLL\\Features\\LeaveType\\Commands\\CreateLeaveType\\CreateLeaveTypeCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:44:43.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T12:44:43.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "CreateLeaveTypeValidator.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\LeaveType\\Commands\\CreateLeaveType\\CreateLeaveTypeValidator.cs",
               "RelativeDocumentMoniker": "UserAPI.BLL\\Features\\LeaveType\\Commands\\CreateLeaveType\\CreateLeaveTypeValidator.cs",
@@ -468,12 +536,11 @@
               "RelativeToolTip": "UserAPI.BLL\\Features\\LeaveType\\Commands\\CreateLeaveType\\CreateLeaveTypeValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:22:49.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T12:22:49.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "CreateUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\User\\Commands\\CreateUser\\CreateUserCommand.cs",
               "RelativeDocumentMoniker": "UserAPI.BLL\\Features\\User\\Commands\\CreateUser\\CreateUserCommand.cs",
@@ -481,12 +548,11 @@
               "RelativeToolTip": "UserAPI.BLL\\Features\\User\\Commands\\CreateUser\\CreateUserCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T11:20:09.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T11:20:09.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "NotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\Exceptions\\NotFoundException.cs",
               "RelativeDocumentMoniker": "UserAPI.BLL\\Features\\Exceptions\\NotFoundException.cs",
@@ -494,12 +560,11 @@
               "RelativeToolTip": "UserAPI.BLL\\Features\\Exceptions\\NotFoundException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:39:47.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T12:39:47.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\Models\\User.cs",
               "RelativeDocumentMoniker": "UserApi.DAL\\Models\\User.cs",
@@ -507,12 +572,11 @@
               "RelativeToolTip": "UserApi.DAL\\Models\\User.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAiwAsAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T01:56:07.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T01:56:07.024Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Implementations\\UserService.cs",
               "RelativeDocumentMoniker": "UserAPI.BLL\\Implementations\\UserService.cs",
@@ -520,12 +584,11 @@
               "RelativeToolTip": "UserAPI.BLL\\Implementations\\UserService.cs",
               "ViewState": "AQIAACUAAAAAAAAAAAAkwDkAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T01:13:46.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T01:13:46.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "ApplicationServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\ApplicationServiceRegistration.cs",
               "RelativeDocumentMoniker": "UserAPI.BLL\\ApplicationServiceRegistration.cs",
@@ -533,12 +596,11 @@
               "RelativeToolTip": "UserAPI.BLL\\ApplicationServiceRegistration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T11:51:38.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T11:51:38.514Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "LeaveTypeProfile.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\MappingProfiles\\LeaveTypeProfile.cs",
               "RelativeDocumentMoniker": "UserAPI.BLL\\MappingProfiles\\LeaveTypeProfile.cs",
@@ -546,12 +608,11 @@
               "RelativeToolTip": "UserAPI.BLL\\MappingProfiles\\LeaveTypeProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T11:50:15.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T11:50:15.173Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\MappingProfiles\\UserProfile.cs",
               "RelativeDocumentMoniker": "UserAPI.BLL\\MappingProfiles\\UserProfile.cs",
@@ -559,12 +620,11 @@
               "RelativeToolTip": "UserAPI.BLL\\MappingProfiles\\UserProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T11:50:30.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T11:50:30.549Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "test.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\User\\query\\GetAllUsers\\test.cs",
               "RelativeDocumentMoniker": "UserAPI.BLL\\Features\\User\\query\\GetAllUsers\\test.cs",
@@ -572,12 +632,11 @@
               "RelativeToolTip": "UserAPI.BLL\\Features\\User\\query\\GetAllUsers\\test.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:00:39.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T12:00:39.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 32,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI\\Program.cs",
               "RelativeDocumentMoniker": "UserAPI\\Program.cs",
@@ -585,12 +644,11 @@
               "RelativeToolTip": "UserAPI\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T01:55:32.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T01:55:32.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "ILeaveTypeService.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Interfaces\\ILeaveTypeService.cs",
               "RelativeDocumentMoniker": "UserAPI.BLL\\Interfaces\\ILeaveTypeService.cs",
@@ -598,12 +656,11 @@
               "RelativeToolTip": "UserAPI.BLL\\Interfaces\\ILeaveTypeService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T11:43:06.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T11:43:06.575Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "UserAPI.BLL\\Interfaces\\IUserService.cs",
@@ -611,12 +668,11 @@
               "RelativeToolTip": "UserAPI.BLL\\Interfaces\\IUserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T01:14:20.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T01:14:20.502Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "DeleteUserCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\User\\Commands\\DeleteUser\\DeleteUserCommandHandler.cs",
               "RelativeDocumentMoniker": "UserAPI.BLL\\Features\\User\\Commands\\DeleteUser\\DeleteUserCommandHandler.cs",
@@ -624,12 +680,11 @@
               "RelativeToolTip": "UserAPI.BLL\\Features\\User\\Commands\\DeleteUser\\DeleteUserCommandHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T11:20:09.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T11:20:09.393Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "DeleteUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\Features\\User\\Commands\\DeleteUser\\DeleteUserCommand.cs",
               "RelativeDocumentMoniker": "UserAPI.BLL\\Features\\User\\Commands\\DeleteUser\\DeleteUserCommand.cs",
@@ -637,12 +692,11 @@
               "RelativeToolTip": "UserAPI.BLL\\Features\\User\\Commands\\DeleteUser\\DeleteUserCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T11:20:09.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T11:20:09.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 37,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\Models\\BaseEntity.cs",
               "RelativeDocumentMoniker": "UserApi.DAL\\Models\\BaseEntity.cs",
@@ -650,12 +704,11 @@
               "RelativeToolTip": "UserApi.DAL\\Models\\BaseEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T11:20:09.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T11:20:09.343Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 38,
               "Title": "LeaveType.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\Models\\LeaveType.cs",
               "RelativeDocumentMoniker": "UserApi.DAL\\Models\\LeaveType.cs",
@@ -663,12 +716,11 @@
               "RelativeToolTip": "UserApi.DAL\\Models\\LeaveType.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T11:20:09.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T11:20:09.296Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -680,7 +732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -692,7 +744,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 49,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI\\appsettings.Development.json",
               "RelativeDocumentMoniker": "UserAPI\\appsettings.Development.json",
@@ -704,7 +756,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 50,
               "Title": "20240326140919_Initial Create.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\Migrations\\20240326140919_Initial Create.cs",
               "RelativeDocumentMoniker": "UserApi.DAL\\Migrations\\20240326140919_Initial Create.cs",
@@ -716,7 +768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "20240327091156_Initial Create1.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UserAPI\\UserApi.DAL\\Migrations\\20240327091156_Initial Create1.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\ASUS\\Desktop\\UserAPI\\UserApi.DAL\\Migrations\\20240327091156_Initial Create1.cs",
@@ -728,7 +780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "UserApi.DAL.csproj",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\UserApi.DAL.csproj",
               "RelativeDocumentMoniker": "UserApi.DAL\\UserApi.DAL.csproj",
@@ -736,25 +788,11 @@
               "RelativeToolTip": "UserApi.DAL\\UserApi.DAL.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-29T11:12:02.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T11:12:02.516Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "UserAPI.csproj",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI\\UserAPI.csproj",
-              "RelativeDocumentMoniker": "UserAPI\\UserAPI.csproj",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI\\UserAPI.csproj",
-              "RelativeToolTip": "UserAPI\\UserAPI.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-29T01:47:27.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 51,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI\\appsettings.json",
               "RelativeDocumentMoniker": "UserAPI\\appsettings.json",
@@ -766,7 +804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "20240402121845_initial create2.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UserAPI\\UserApi.DAL\\Migrations\\20240402121845_initial create2.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\ASUS\\Desktop\\UserAPI\\UserApi.DAL\\Migrations\\20240402121845_initial create2.cs",
@@ -778,7 +816,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 52,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\appsettings.json",
               "RelativeDocumentMoniker": "UserApi.DAL\\appsettings.json",
@@ -786,12 +824,11 @@
               "RelativeToolTip": "UserApi.DAL\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-02T23:53:19.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T23:53:19.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 44,
               "Title": "20240403004457_adressmigration1.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UserAPI\\UserApi.DAL\\Migrations\\20240403004457_adressmigration1.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\ASUS\\Desktop\\UserAPI\\UserApi.DAL\\Migrations\\20240403004457_adressmigration1.cs",
@@ -803,7 +840,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 53,
               "Title": "PocDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\Migrations\\PocDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "UserApi.DAL\\Migrations\\PocDbContextModelSnapshot.cs",
@@ -815,7 +852,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 45,
               "Title": "PocDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UserAPI\\UserApi.DAL\\PocDbContext.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\ASUS\\Desktop\\UserAPI\\UserApi.DAL\\PocDbContext.cs",
@@ -827,7 +864,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 54,
               "Title": "Usings.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\Usings.cs",
               "RelativeDocumentMoniker": "UserApi.DAL\\Usings.cs",
@@ -835,12 +872,11 @@
               "RelativeToolTip": "UserApi.DAL\\Usings.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T10:18:53.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T10:18:53.223Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 46,
               "Title": "20240402122156_initial create3.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UserAPI\\UserApi.DAL\\Migrations\\20240402122156_initial create3.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\ASUS\\Desktop\\UserAPI\\UserApi.DAL\\Migrations\\20240402122156_initial create3.cs",
@@ -852,19 +888,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "Usings.cs",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI\\Usings.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Usings.cs",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI\\Usings.cs",
-              "RelativeToolTip": "UserAPI\\Usings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T01:55:30.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 47,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UserAPI\\UserApi.DAL\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\ASUS\\Desktop\\UserAPI\\UserApi.DAL\\Interfaces\\IUserRepository.cs",
@@ -876,7 +900,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 48,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\UserAPI\\UserApi.DAL\\Implementations\\UserRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\ASUS\\Desktop\\UserAPI\\UserApi.DAL\\Implementations\\UserRepository.cs",
@@ -888,20 +912,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "UserAPI.BLL.csproj",
-              "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\UserAPI.BLL.csproj",
-              "RelativeDocumentMoniker": "UserAPI.BLL\\UserAPI.BLL.csproj",
-              "ToolTip": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\UserAPI.BLL.csproj",
-              "RelativeToolTip": "UserAPI.BLL\\UserAPI.BLL.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-29T12:47:38.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 55,
               "Title": "DemoController.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI\\Controllers\\DemoController.cs",
               "RelativeDocumentMoniker": "UserAPI\\Controllers\\DemoController.cs",
@@ -913,7 +924,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 56,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "UserAPI\\Controllers\\UserController.cs",

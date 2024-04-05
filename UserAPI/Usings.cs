@@ -8,4 +8,3 @@ global using UserApi.DAL;
 global using UserApi.DAL.Implementations; 
 global using UserApi.DAL.Models;
 global using UserAPI.BLL.Interfaces;
-using UserApi.DAL.Interfaces;
