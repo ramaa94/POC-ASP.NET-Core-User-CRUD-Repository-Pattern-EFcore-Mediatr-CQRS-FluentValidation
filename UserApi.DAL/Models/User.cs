@@ -21,7 +21,5 @@ public class User : BaseEntity
 
     public int nulll {  get; set; }
 
-    public int alii { get; set; }
-
 
 }
