@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\UserApi.DAL.csproj": {}
+    "C:\\Users\\AfifLAMLOUMI\\OneDrive - TREND-IT\\Documents\\Visual Studio 2022\\repos\\Poc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\\UserApi.DAL\\UserApi.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\UserApi.DAL.csproj": {
+    "C:\\Users\\AfifLAMLOUMI\\OneDrive - TREND-IT\\Documents\\Visual Studio 2022\\repos\\Poc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\\UserApi.DAL\\UserApi.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\UserApi.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\AfifLAMLOUMI\\OneDrive - TREND-IT\\Documents\\Visual Studio 2022\\repos\\Poc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\\UserApi.DAL\\UserApi.DAL.csproj",
         "projectName": "UserApi.DAL",
-        "projectPath": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\UserApi.DAL.csproj",
-        "packagesPath": "C:\\Users\\Rama\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\obj\\",
+        "projectPath": "C:\\Users\\AfifLAMLOUMI\\OneDrive - TREND-IT\\Documents\\Visual Studio 2022\\repos\\Poc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\\UserApi.DAL\\UserApi.DAL.csproj",
+        "packagesPath": "C:\\Users\\AfifLAMLOUMI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AfifLAMLOUMI\\OneDrive - TREND-IT\\Documents\\Visual Studio 2022\\repos\\Poc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\\UserApi.DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Rama\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AfifLAMLOUMI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -98,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
