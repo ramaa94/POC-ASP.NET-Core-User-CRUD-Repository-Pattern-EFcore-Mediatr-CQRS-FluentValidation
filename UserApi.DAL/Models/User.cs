@@ -1,7 +1,3 @@
-
-
-using System.Net.Sockets;
-
 namespace UserApi.DAL.Models;
 
 

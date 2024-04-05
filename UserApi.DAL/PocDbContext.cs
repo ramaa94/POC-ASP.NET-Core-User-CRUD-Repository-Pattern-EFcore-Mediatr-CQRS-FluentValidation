@@ -1,8 +1,3 @@
-
-
-
-using HR.LeaveManagement.Domain;
-
 namespace UserApi.DAL;
 
 public class PocDbContext : DbContext
@@ -14,19 +9,16 @@ public class PocDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        //Config entities
 
         modelBuilder.Entity<User>(entity =>
         {
-            //  configuration d'une propriété name
+           
             entity.Property(e => e.Name)
                 .IsRequired()
                 .HasMaxLength(200);
 
-            // configuration  clé primaire
+         
             entity.HasKey(e => e.UserID);
-
-            // configuration table
 
             entity.ToTable("Users");
         });

@@ -1,6 +1,5 @@
-﻿using FluentValidation.Results;
-using FluentValidation.Validators;
-namespace HR.LeaveManagement.Application.Exceptions;
+﻿
+namespace UserApi.BLL.Exceptions;
 
 public class BadRequestException : Exception
 { 

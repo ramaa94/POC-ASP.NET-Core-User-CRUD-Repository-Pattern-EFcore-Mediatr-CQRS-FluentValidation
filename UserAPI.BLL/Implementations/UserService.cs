@@ -1,10 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
-using UserApi.DAL.Implementations;
-using UserApi.DAL.Repositories.contracts;
-using UserApi.DAL.Models;
-using Microsoft.EntityFrameworkCore.Design;
+﻿
 
+
+namespace UserApi.BLL.Implementations;
 public class UserService : IUserService
 {
     private readonly IUserRepository _userRepository;

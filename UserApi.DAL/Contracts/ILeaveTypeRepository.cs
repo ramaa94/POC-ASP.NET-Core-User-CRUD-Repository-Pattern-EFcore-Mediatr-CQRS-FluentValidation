@@ -1,5 +1,4 @@
-﻿using HR.LeaveManagement.Domain;
-
+﻿namespace UserApi.DAL.Contracts;
 public interface ILeaveTypeRepository
 {
     Task<IEnumerable<LeaveType>> GetAllAsync();

@@ -1,6 +1,4 @@
-﻿
-using HR.LeaveManagement.Domain;
-using UserApi.DAL;
+﻿namespace UserApi.DAL.Repositories;
 
 public class LeaveTypeRepository : ILeaveTypeRepository
 {
@@ -18,7 +16,9 @@ public class LeaveTypeRepository : ILeaveTypeRepository
 
     public async Task<LeaveType> GetByIdAsync(int id)
     {
-        return await _context.LeaveTypes.FindAsync(id);
+        var leaveType = await _context.LeaveTypes.FindAsync(id); 
+        if(leaveType is null) { throw new Exception(""); }
+        return leaveType;
     }
 
     public async Task CreateAsync(LeaveType leaveType)

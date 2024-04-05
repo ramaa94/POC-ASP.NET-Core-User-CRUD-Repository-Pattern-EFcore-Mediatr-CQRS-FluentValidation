@@ -1,10 +1,4 @@
-﻿
-
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
-using UserApi.DAL.Repositories;
-
-namespace UserApi.DAL.Implementations;
+﻿namespace UserApi.DAL.Repositories;
 
 public class UserRepository : IUserRepository
 {

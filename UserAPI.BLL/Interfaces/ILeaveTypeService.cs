@@ -1,4 +1,4 @@
-﻿using HR.LeaveManagement.Domain;
+﻿namespace UserApi.BLL.Interfaces;
 
 public interface ILeaveTypeService
 {

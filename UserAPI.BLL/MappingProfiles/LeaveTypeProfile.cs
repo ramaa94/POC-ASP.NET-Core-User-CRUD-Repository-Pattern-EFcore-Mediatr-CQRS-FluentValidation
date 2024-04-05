@@ -1,19 +1,11 @@
-﻿using AutoMapper;
-using HR.LeaveManagement.Application.Features.LeaveType.Queries.GetAllLeaveTypes;
-using HR.LeaveManagement.Domain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
-namespace HR.LeaveManagement.Application.MappingProfiles
+namespace UserApi.BLL.MappingProfiles;
+
+internal class LeaveTypeProfile :Profile
 {
-    internal class LeaveTypeProfile :Profile
+    public LeaveTypeProfile()
     {
-        public LeaveTypeProfile()
-        {
-            CreateMap<LeaveTypeDto,LeaveType>().ReverseMap();
-        }
+        CreateMap<LeaveTypeDto,LeaveType>().ReverseMap();
     }
 }

@@ -1,9 +1,4 @@
-﻿
-
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
-
-namespace UserApi.DAL.Repositories.contracts;
+﻿namespace UserApi.DAL.Contracts;
 
 public interface IUserRepository
 {
