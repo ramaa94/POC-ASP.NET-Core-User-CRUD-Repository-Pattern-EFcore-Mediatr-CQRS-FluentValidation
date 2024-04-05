@@ -3497,19 +3497,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rama\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\UserApi.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\\UserApi.DAL\\UserApi.DAL.csproj",
       "projectName": "UserApi.DAL",
-      "projectPath": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\UserApi.DAL.csproj",
-      "packagesPath": "C:\\Users\\Rama\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\obj\\",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\\UserApi.DAL\\UserApi.DAL.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\\UserApi.DAL\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Rama\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3517,6 +3522,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3588,6 +3594,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.28, 6.0.28]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.28, 6.0.28]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.28, 6.0.28]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

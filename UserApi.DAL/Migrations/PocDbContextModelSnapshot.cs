@@ -22,6 +22,33 @@ namespace UserApi.DAL.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("HR.LeaveManagement.Domain.LeaveType", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime?>("DateCreated")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DateModified")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("DefaultDays")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("LeaveTypes");
+                });
+
             modelBuilder.Entity("UserApi.DAL.Models.User", b =>
                 {
                     b.Property<Guid>("UserID")
@@ -34,7 +61,10 @@ namespace UserApi.DAL.Migrations
                     b.Property<string>("ContactNumber")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("Created")
+                    b.Property<DateTime?>("DateCreated")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DateModified")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
@@ -47,6 +77,12 @@ namespace UserApi.DAL.Migrations
                         .HasColumnType("nvarchar(200)");
 
                     b.Property<int>("PhonesNumber")
+                        .HasColumnType("int");
+
+                    b.Property<int>("alii")
+                        .HasColumnType("int");
+
+                    b.Property<int>("nulll")
                         .HasColumnType("int");
 
                     b.HasKey("UserID");
