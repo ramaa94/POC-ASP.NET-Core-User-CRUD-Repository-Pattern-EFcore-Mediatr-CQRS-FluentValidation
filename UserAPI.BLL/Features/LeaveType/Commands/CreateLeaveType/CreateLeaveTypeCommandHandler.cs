@@ -1,11 +1,10 @@
 ﻿using AutoMapper;
-using HR.LeaveManagement.Application.Exceptions;
 using MediatR;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Domain;
 
 namespace HR.LeaveManagement.Application.Features.LeaveType.Commands.CreateLeaveType
 {

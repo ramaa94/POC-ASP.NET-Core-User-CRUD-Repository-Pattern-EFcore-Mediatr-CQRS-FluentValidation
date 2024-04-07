@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
-
+﻿
 #nullable disable
 
 namespace UserApi.DAL.Migrations

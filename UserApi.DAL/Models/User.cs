@@ -15,7 +15,7 @@ public class User : BaseEntity
 
     public int PhonesNumber { get; set; }
 
-    public int nulll {  get; set; }
+    public int Nulll {  get; set; }
 
 
 }

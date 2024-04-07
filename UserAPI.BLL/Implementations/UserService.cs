@@ -1,6 +1,9 @@
 ﻿
 
 
+
+using Microsoft.EntityFrameworkCore.ChangeTracking;
+
 namespace UserApi.BLL.Implementations;
 public class UserService : IUserService
 {
@@ -30,10 +33,11 @@ public class UserService : IUserService
 
     public async Task<User> AddUserAsync(User user)
     {
-         await _userRepository.CreateAsync(user);
+        var adduser = await _userRepository.CreateAsync(user);
         await _userRepository.SaveChangesAsync();
         return user;
     }
+
     public EntityEntry<User> Entry(User user)
     {
         return _userRepository.Entry(user);

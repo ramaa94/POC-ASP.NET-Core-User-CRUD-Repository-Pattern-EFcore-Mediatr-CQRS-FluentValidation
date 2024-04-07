@@ -1,8 +1,11 @@
 
 
+global using UserApi.BLL.Implementations;
+global using UserApi.BLL.Interfaces;
 
-using UserApi.DAL.Repositories.contracts;
-using UserAPI.Controllers;
+global using UserApi.DAL.Contracts;
+global using UserApi.DAL.Repositories;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,12 +29,6 @@ builder.Services.AddScoped<ILeaveTypeService, LeaveTypeService>();
 
 var app = builder.Build();
 
-//Migrations 
-// Create a scope to resolve the services
-
-// Get the DbContext instance
-
-// Apply migrations
 
 // Apply migrations
 

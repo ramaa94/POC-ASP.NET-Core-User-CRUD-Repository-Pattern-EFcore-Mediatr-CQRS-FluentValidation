@@ -1,17 +1,13 @@
-﻿using System;
-using MediatR;
-using AutoMapper;
-using UserApi.DAL.Repositories.contracts;
-
+﻿namespace UserAPI.BLL.Features.Commands.DeleteUser;
 
 public class DeleteUserCommandHandler : IRequestHandler<DeleteUserCommand, Unit>
 {
     private readonly IMapper _mapper;
     private readonly IUserRepository _UserRepository;
 
-    public DeleteUserCommandHandler(IMapper mapper ,IUserRepository UserRepository)
+    public DeleteUserCommandHandler(IMapper mapper, IUserRepository UserRepository)
     {
-        this._mapper = mapper;
+        _mapper = mapper;
         _UserRepository = UserRepository;
     }
     public async Task<Unit> Handle(DeleteUserCommand request, CancellationToken cancellationToken)

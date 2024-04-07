@@ -1,13 +1,4 @@
-﻿using AutoMapper;
-using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UserApi.DAL.Implementations;
-using UserApi.DAL.Repositories.contracts;
-using UserAPI.BLL.Features.User.query.GetAllUsers;
+﻿using UserAPI.BLL.Features.User.query.GetAllUsers;
 
 
 public class GetAllUsersQueryHandler : IRequestHandler<GetAllUsersQuery, List<UsersDto>>

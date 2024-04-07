@@ -1203,3 +1203,14 @@ C:\Users\AfifLAMLOUMI\OneDrive - TREND-IT\Documents\Visual Studio 2022\repos\Poc
 C:\Users\AfifLAMLOUMI\OneDrive - TREND-IT\Documents\Visual Studio 2022\repos\Poc\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\UserAPI\obj\Debug\net6.0\UserAPI.pdb
 C:\Users\AfifLAMLOUMI\OneDrive - TREND-IT\Documents\Visual Studio 2022\repos\Poc\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\UserAPI\obj\Debug\net6.0\UserAPI.genruntimeconfig.cache
 C:\Users\AfifLAMLOUMI\OneDrive - TREND-IT\Documents\Visual Studio 2022\repos\Poc\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\UserAPI\obj\Debug\net6.0\ref\UserAPI.dll
+C:\Users\ASUS\Desktop\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\UserAPI\obj\Debug\net6.0\UserAPI.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\UserAPI\obj\Debug\net6.0\UserAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\UserAPI\obj\Debug\net6.0\UserAPI.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\UserAPI\obj\Debug\net6.0\UserAPI.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\UserAPI\obj\Debug\net6.0\UserAPI.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\UserAPI\obj\Debug\net6.0\UserAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ASUS\Desktop\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\UserAPI\obj\Debug\net6.0\UserAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ASUS\Desktop\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\UserAPI\obj\Debug\net6.0\UserAPI.sourcelink.json
+C:\Users\ASUS\Desktop\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\UserAPI\obj\Debug\net6.0\UserAPI.dll
+C:\Users\ASUS\Desktop\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\UserAPI\obj\Debug\net6.0\refint\UserAPI.dll
+C:\Users\ASUS\Desktop\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\UserAPI\obj\Debug\net6.0\UserAPI.pdb

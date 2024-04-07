@@ -1,5 +1,7 @@
-﻿namespace UserApi.DAL.Contracts;
+﻿
+namespace UserApi.DAL.Contracts;
 public interface ILeaveTypeRepository
+
 {
     Task<IEnumerable<LeaveType>> GetAllAsync();
     Task<LeaveType> GetByIdAsync(int id);
