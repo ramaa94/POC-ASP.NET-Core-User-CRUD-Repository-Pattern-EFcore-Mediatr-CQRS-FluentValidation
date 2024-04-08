@@ -1,12 +1,8 @@
-﻿using FluentValidation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
+namespace UserAPI.BLL.Features.Commands.CreateUser;
 
-internal class CreateUserValidator : AbstractValidator<CreateUserCommand>
+public class CreateUserValidator : AbstractValidator<CreateUserCommand>
 
 {
     private readonly IUserRepository _userRepository;

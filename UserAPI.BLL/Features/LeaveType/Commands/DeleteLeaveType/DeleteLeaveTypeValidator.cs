@@ -1,11 +1,5 @@
-﻿using FluentValidation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace UserAPI.BLL.Features.LeaveType.Commands.DeleteLeaveType
 
-namespace HR.LeaveManagement.Application.Features.LeaveType.Commands.DeleteLeaveType
 {
     public class DeleteLeaveTypeValidator:AbstractValidator<DeleteLeaveTypeCommand>
     {

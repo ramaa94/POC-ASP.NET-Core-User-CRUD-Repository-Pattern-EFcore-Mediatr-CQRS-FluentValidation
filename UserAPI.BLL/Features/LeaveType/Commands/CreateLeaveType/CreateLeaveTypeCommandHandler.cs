@@ -1,12 +1,9 @@
-﻿using AutoMapper;
-using MediatR;
-using System;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Domain;
+﻿
 
-namespace HR.LeaveManagement.Application.Features.LeaveType.Commands.CreateLeaveType
+using UserApi.BLL.Features;
+using UserAPI.BLL.Features.LeaveType.Commands.CreateLeaveType;
+
+namespace UserAPI.BLL.Features.LeaveType.Queries.GetAllLeaveTypes
 {
     public class CreateLeaveTypeCommandHandler : IRequestHandler<CreateLeaveTypeCommand, int>
     {
@@ -30,7 +27,7 @@ namespace HR.LeaveManagement.Application.Features.LeaveType.Commands.CreateLeave
 
                 throw new BadRequestException(errorMessage, validationRes);
             //convert to domain entity obj
-            var leaveTypeToCreate = _mapper.Map<Domain.LeaveType>(request);
+            var leaveTypeToCreate = _mapper.Map<UserApi.DAL.Models.LeaveType>(request);
             //add to db 
 
             await _leaveTypeRepository.CreateAsync(leaveTypeToCreate);

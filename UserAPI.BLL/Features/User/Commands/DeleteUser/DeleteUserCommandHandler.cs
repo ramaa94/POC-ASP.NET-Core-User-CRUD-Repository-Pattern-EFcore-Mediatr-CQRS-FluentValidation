@@ -13,7 +13,7 @@ public class DeleteUserCommandHandler : IRequestHandler<DeleteUserCommand, Unit>
     public async Task<Unit> Handle(DeleteUserCommand request, CancellationToken cancellationToken)
     {
 
-        var UserToDelete = _mapper.Map<User>(request);
+        var UserToDelete = _mapper.Map<UserApi.DAL.Models.User>(request);
         await _UserRepository.DeleteAsyncUser(UserToDelete);
 
 

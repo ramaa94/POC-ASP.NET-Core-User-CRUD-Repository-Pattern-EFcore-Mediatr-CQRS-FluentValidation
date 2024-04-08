@@ -1,4 +1,4 @@
-﻿namespace HR.LeaveManagement.Application.Features.LeaveType.Queries.GetAllLeaveTypes
+﻿namespace  UserAPI.BLL.Features.LeaveType.Queries.GetAllLeaveTypes
 {
     public class LeaveTypeDto
     {

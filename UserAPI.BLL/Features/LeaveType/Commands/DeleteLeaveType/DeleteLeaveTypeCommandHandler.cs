@@ -1,15 +1,5 @@
-﻿using AutoMapper;
-using FluentValidation;
-using HR.LeaveManagement.Application.Features.LeaveType.Commands.CreateLeaveType;
-using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata.Ecma335;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace UserAPI.BLL.Features.LeaveType.Commands.DeleteLeaveType
 
-namespace HR.LeaveManagement.Application.Features.LeaveType.Commands.DeleteLeaveType
 {
     internal class DeleteLeaveTypeCommandHandler : IRequestHandler<DeleteLeaveTypeCommand, Unit>
     {
@@ -24,7 +14,7 @@ namespace HR.LeaveManagement.Application.Features.LeaveType.Commands.DeleteLeave
         public async Task<Unit> Handle(DeleteLeaveTypeCommand request, CancellationToken cancellationToken)
         {
             
-            var leaveTypeToDelete = _mapper.Map<Domain.LeaveType>(request);
+            var leaveTypeToDelete = _mapper.Map<UserApi.DAL.Models.LeaveType>(request);
             await _leaveTypeRepository.DeleteAsync(leaveTypeToDelete.Id);
 
 

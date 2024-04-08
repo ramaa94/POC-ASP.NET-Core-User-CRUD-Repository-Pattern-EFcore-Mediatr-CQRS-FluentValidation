@@ -12,6 +12,9 @@ global using FluentValidation.Results;
 global using FluentValidation.Validators;
 global using MediatR;
 global using UserApi.BLL.Exceptions;
+global using Carter;
+global using FluentValidation;
+
 
 
 

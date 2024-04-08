@@ -62,6 +62,27 @@
           }
         }
       },
+      "Carter/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "10.3.4",
+          "Microsoft.Extensions.DependencyModel": "6.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/net6.0/Carter.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Carter.dll": {
+            "related": ".pdb"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "FluentValidation/11.9.0": {
         "type": "package",
         "compile": {
@@ -4248,6 +4269,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "13.0.1",
+          "Carter": "6.0.0",
           "FluentValidation": "11.9.0",
           "FluentValidation.DependencyInjectionExtensions": "11.9.0",
           "MediatR": "12.2.0",
@@ -4266,6 +4288,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "13.0.1",
+          "Carter": "6.0.0",
           "FluentValidation": "11.9.0",
           "FluentValidation.DependencyInjectionExtensions": "11.9.0",
           "MediatR": "12.2.0",
@@ -4333,6 +4356,20 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "Carter/6.0.0": {
+      "sha512": "7Qg/IhdgFlcbKr83UZ1xVbxGcGthP+zNDTqNGNgyHRD4Ak4Uy2YLuDgJdF/gjHV6iawgexm+lLuvYqQZxcxkXg==",
+      "type": "package",
+      "path": "carter/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carter.6.0.0.nupkg.sha512",
+        "carter.nuspec",
+        "carterlogo.png",
+        "lib/net6.0/Carter.dll",
+        "lib/net6.0/Carter.pdb"
       ]
     },
     "FluentValidation/11.9.0": {
@@ -11913,6 +11950,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 13.0.1",
+      "Carter >= 6.0.0",
       "FluentValidation >= 11.9.0",
       "FluentValidation.DependencyInjectionExtensions >= 11.9.0",
       "MediatR >= 12.2.0",
@@ -11927,24 +11965,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Rama\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\\UserAPI\\UserAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI\\UserAPI.csproj",
       "projectName": "UserAPI",
-      "projectPath": "C:\\Users\\ASUS\\Desktop\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\\UserAPI\\UserAPI.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Desktop\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\\UserAPI\\obj\\",
+      "projectPath": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI\\UserAPI.csproj",
+      "packagesPath": "C:\\Users\\Rama\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Rama\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11952,18 +11985,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ASUS\\Desktop\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\\UserAPI.BLL\\UserAPI.BLL.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\Desktop\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\\UserAPI.BLL\\UserAPI.BLL.csproj"
+            "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\UserAPI.BLL.csproj": {
+              "projectPath": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserAPI.BLL\\UserAPI.BLL.csproj"
             },
-            "C:\\Users\\ASUS\\Desktop\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\\UserApi.DAL\\UserApi.DAL.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\Desktop\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\\UserApi.DAL\\UserApi.DAL.csproj"
+            "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\UserApi.DAL.csproj": {
+              "projectPath": "C:\\Users\\Rama\\Desktop\\Pc\\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\\UserApi.DAL\\UserApi.DAL.csproj"
             }
           }
         }
@@ -11986,6 +12018,10 @@
           "AutoMapper": {
             "target": "Package",
             "version": "[13.0.1, )"
+          },
+          "Carter": {
+            "target": "Package",
+            "version": "[6.0.0, )"
           },
           "FluentValidation": {
             "target": "Package",
@@ -12037,24 +12073,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.28, 6.0.28]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.28, 6.0.28]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.28, 6.0.28]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.28, 6.0.28]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

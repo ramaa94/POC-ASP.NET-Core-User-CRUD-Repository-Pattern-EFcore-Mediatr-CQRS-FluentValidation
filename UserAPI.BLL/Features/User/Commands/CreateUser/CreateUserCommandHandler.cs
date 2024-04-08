@@ -1,4 +1,6 @@
-﻿public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, Guid>
+﻿namespace UserAPI.BLL.Features.Commands.CreateUser;
+
+public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, Guid>
 {
     private readonly IMapper _mapper;
     private readonly IUserRepository _UserRepository;
@@ -17,7 +19,7 @@
         if (!validationRes.IsValid)
             throw new BadRequestException("Invalid type", validationRes);
         //convert
-        var UserToCreate = _mapper.Map<User>(request);
+        var UserToCreate = _mapper.Map<UserApi.DAL.Models.User>(request);
         //add to db 
         await _UserRepository.CreateAsync(UserToCreate);
         // return record

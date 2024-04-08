@@ -16,7 +16,7 @@ public class UserRepository : IUserRepository
     }
 
 
-   public async Task<bool> DeleteAsync(int id)
+   public async Task<bool> DeleteAsync(Guid id)
     {
     var user = await _context.Users.FindAsync(id);
     if (user == null) return false;
@@ -46,7 +46,7 @@ public class UserRepository : IUserRepository
     }
 
 
-    public async Task<User?> GetByIdAsync(int id)
+    public async Task<User?> GetByIdAsync(Guid id)
     {
         return await _context.Users.FindAsync(id);
     }

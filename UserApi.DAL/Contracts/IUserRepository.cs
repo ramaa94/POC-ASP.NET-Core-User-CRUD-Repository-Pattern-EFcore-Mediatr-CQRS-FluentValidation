@@ -3,10 +3,10 @@
 public interface IUserRepository
 {
     Task<List<User>> GetAllAsync();
-    Task<User?> GetByIdAsync(int id);
+    Task<User?> GetByIdAsync(Guid id);
     Task<bool> CreateAsync(User user);
     Task<bool> UpdateAsync(User user);
-    Task<bool> DeleteAsync(int id);
+    Task<bool> DeleteAsync(Guid id);
 
     Task<bool> DeleteAsyncUser(User user);
     Task<int> SaveChangesAsync();

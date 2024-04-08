@@ -20,7 +20,7 @@ public class UserService : IUserService
         return liste;
     }
 
-    public async Task<User> GetUserByIdAsync(int id)
+    public async Task<User> GetUserByIdAsync(Guid id)
     {
         var user = await _userRepository.GetByIdAsync(id);
         if (user == null)
@@ -51,7 +51,7 @@ public class UserService : IUserService
     }
 
   
-    public async Task DeleteUserAsync(int id)
+    public async Task DeleteUserAsync(Guid id)
     {
         var user = await _userRepository.GetByIdAsync(id);
         if (user == null) throw new InvalidOperationException($"Utilisateur avec ID {id} introuvable.");

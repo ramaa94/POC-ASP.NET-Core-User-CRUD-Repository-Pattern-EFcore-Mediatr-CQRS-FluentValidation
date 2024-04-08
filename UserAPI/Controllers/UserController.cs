@@ -1,116 +1,78 @@
 ﻿
+using Carter;
+using MediatR;
+using UserAPI.BLL.Features.Commands.CreateUser;
+using UserAPI.BLL.Features.Commands.DeleteUser;
+using UserAPI.BLL.Features.User.Commands.UpdateUser;
+using UserAPI.BLL.Features.User.query.GetAllUsers;
 
-namespace UserAPI.Controllers
+namespace UserAPI.Controllers;
+
+public class UserController : ControllerBase, ICarterModule
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class UserController : ControllerBase
+    private readonly PocDbContext _context;
+    private readonly IMediator _mediator;
+
+    public UserController(PocDbContext context, IMediator mediator)
     {
-        private readonly PocDbContext _context;
+        _context = context;
+        _mediator = mediator;
 
-        public UserController(PocDbContext context)
-        {
-            _context = context;
-        }
+    }
 
-        // GET: api/User
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<User>>> GetUsers()
-        {
-            if (_context.Users == null)
-            {
-                return NotFound();
-            }
-            return await _context.Users.ToListAsync();
-        }
+    public void AddRoutes(IEndpointRouteBuilder app)
+    {
 
-        // GET: api/User/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<User>> GetUser(int id)
-        {
-            if (_context.Users == null)
-            {
-                return NotFound();
-            }
-            var user = await _context.Users.FindAsync(id);
+        app.MapPost("/User/create", CreateUser);
+        app.MapGet("/User/{id}", GetAllUsers);
 
-            if (user == null)
-            {
-                return NotFound();
-            }
+        //app.MapGet("/User/{id}", GetUserById);
+        app.MapPut("/User/update/{id}", UpdateUser);
+        app.MapDelete("/User/delete/{id}", DeleteUser);
+    }
+    private async Task<IResult> CreateUser(User user)
+    {
 
-            return user;
-        }
+        var command = new CreateUserCommand(user.Name, user.ContactNumber, user.Age, user.UserID, user.Email, user.PhonesNumber);
+        var userId = await _mediator.Send(command);
+        var Result = Results.Created($"/User/{userId}", $"User created with ID: {userId}");
+        return Result;
+    }
+    private async Task<IResult> DeleteUser(Guid userId)
+    {
+        var command = new DeleteUserCommand(userId);
+        var success = await _mediator.Send(command);
+        return Results.NoContent();
 
-        // PUT: api/User/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutUser(Guid id, User user)
-        {
-            if (id != user.UserID)
-            {
-                return BadRequest();
-            }
+    }
+    private async Task<IResult> UpdateUser(Guid UserId, User user)
+    {
+        var command = new UpdateUserCommand(user.Name, user.ContactNumber, user.Age, user.Email, user.PhonesNumber);
+        var success = await _mediator.Send(command); // Send command to mediator
+        var Resultat = Results.Ok();
 
-            _context.Entry(user).State = EntityState.Modified;
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!UserExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+        return Resultat;
+    }
+    private async Task<IResult> GetAllUsers()
+    {
+        var query = new GetAllUsersQuery();
+        var users = await _mediator.Send(query);
 
-            return NoContent();
-        }
+        if (users == null || users.Count == 0)
+            return Results.NotFound();
 
-        // POST: api/User
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPost]
-        public async Task<ActionResult<User>> PostUser(User user)
-        {
-            if (_context.Users == null)
-            {
-                return Problem("Entity set 'APIDbContext.Users' is null.");
-            }
-            _context.Users.Add(user);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetUser", new { id = user.UserID }, user);
-        }
-
-        // DELETE: api/User/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteUser(int id)
-        {
-            if (_context.Users == null)
-            {
-                return NotFound();
-            }
-            var user = await _context.Users.FindAsync(id);
-            if (user == null)
-            {
-                return NotFound();
-            }
-
-            _context.Users.Remove(user);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
-
-        private bool UserExists(Guid id)
-        {
-            return (_context.Users?.Any(e => e.UserID == id)).GetValueOrDefault();
-        }
+        return Results.Ok(users);
     }
 }
+    //private async Task<IResult> GetUserById(int userId)
+    //{
+    //    var query = new GetOneUser(userId);
+    //    var user = await _mediator.Send(query);
+
+
+//    if (user == null)
+//        return Results.NotFound();
+
+//    return Results.Ok(user);
+//}

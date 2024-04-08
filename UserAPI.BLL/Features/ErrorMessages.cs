@@ -1,4 +1,4 @@
-﻿namespace HR.LeaveManagement.Application;
+﻿namespace UserApi.BLL.Features;
 
 public class ErrorMessages
 {

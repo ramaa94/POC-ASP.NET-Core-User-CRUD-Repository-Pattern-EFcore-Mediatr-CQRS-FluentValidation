@@ -1,13 +1,9 @@
-﻿using FluentValidation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using UserAPI.BLL.Features.LeaveType.Queries.GetAllLeaveTypes;
 
-namespace HR.LeaveManagement.Application.Features.LeaveType.Commands.CreateLeaveType;
+namespace UserAPI.BLL.Features.LeaveType.Commands.CreateLeaveType;
 
-internal class CreateLeaveTypeValidator : AbstractValidator<CreateLeaveTypeCommand>
+
+public class CreateLeaveTypeValidator : AbstractValidator<CreateLeaveTypeCommand>
 
 {
     private readonly ILeaveTypeRepository _leaveTypeRepository;

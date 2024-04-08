@@ -1,14 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MediatR;
+﻿
+
 
 
 namespace UserAPI.BLL.Features.User.Commands.UpdateUser
 {
-    internal class UpdateUserCommand:IRequest<int>
+    public class UpdateUserCommand : IRequest<Guid>
     {
+        public UpdateUserCommand( string newName, string newContactNumber, int newAge, string newEmail, int newPhonesNumber)
+        {
+            NewName = newName;
+            NewContactNumber = newContactNumber;
+            NewAge = newAge;
+            NewEmail = newEmail;
+            NewPhonesNumber = newPhonesNumber;
+        }
+
+        public Guid UserId { get; }
+        public string NewName { get; }
+        public string NewContactNumber { get; }
+        public int NewAge { get; }
+        public string NewEmail { get; }
+        public int NewPhonesNumber { get; }
     }
+
 }

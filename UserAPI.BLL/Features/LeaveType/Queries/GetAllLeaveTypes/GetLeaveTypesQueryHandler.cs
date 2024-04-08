@@ -1,7 +1,9 @@
 ﻿
 
-namespace HR.LeaveManagement.Application.Features.LeaveType.Queries.GetAllLeaveTypes;
- 
+
+namespace UserAPI.BLL.Features.LeaveType.Queries.GetAllLeaveTypes;
+
+
 public class GetLeaveTypesQueryHandler : IRequestHandler<GetLeaveTypesQuery, List<LeaveTypeDto>>
 {
     private readonly IMapper _mapper;

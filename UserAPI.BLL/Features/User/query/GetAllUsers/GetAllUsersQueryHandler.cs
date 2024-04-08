@@ -1,4 +1,4 @@
-﻿using UserAPI.BLL.Features.User.query.GetAllUsers;
+﻿namespace UserAPI.BLL.Features.User.query.GetAllUsers;
 
 
 public class GetAllUsersQueryHandler : IRequestHandler<GetAllUsersQuery, List<UsersDto>>
