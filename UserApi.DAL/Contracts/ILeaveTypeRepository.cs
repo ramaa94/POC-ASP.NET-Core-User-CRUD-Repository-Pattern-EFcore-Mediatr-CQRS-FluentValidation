@@ -3,11 +3,12 @@ namespace UserApi.DAL.Contracts;
 public interface ILeaveTypeRepository
 
 {
-    Task<IEnumerable<createLeaveTypeCommand>> GetAllAsync();
-    Task<createLeaveTypeCommand> GetByIdAsync(int id);
+    Task<IEnumerable<LeaveType>> GetAllAsync();
+    Task<LeaveType> GetByIdAsync(int id);
 
-    Task CreateAsync(createLeaveTypeCommand leaveType);
-    Task UpdateAsync(createLeaveTypeCommand leaveType);
+    Task CreateAsync(LeaveType leaveType);
+    Task UpdateAsync(LeaveType leaveType);
     Task DeleteAsync(int id);
     Task<bool> IsLeaveTypeUnique(string name);
 }
+

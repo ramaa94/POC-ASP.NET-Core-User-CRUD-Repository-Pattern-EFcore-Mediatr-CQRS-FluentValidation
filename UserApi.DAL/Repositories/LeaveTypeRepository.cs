@@ -9,25 +9,25 @@ public class LeaveTypeRepository : ILeaveTypeRepository
         _context = context;
     }
 
-    public async Task<IEnumerable<createLeaveTypeCommand>> GetAllAsync()
+    public async Task<IEnumerable<LeaveType>> GetAllAsync()
     {
         return await _context.LeaveTypes.ToListAsync();
     }
 
-    public async Task<createLeaveTypeCommand> GetByIdAsync(int id)
+    public async Task<LeaveType> GetByIdAsync(int id)
     {
         var leaveType = await _context.LeaveTypes.FindAsync(id); 
         if(leaveType is null) { throw new Exception(""); }
         return leaveType;
     }
 
-    public async Task CreateAsync(createLeaveTypeCommand leaveType)
+    public async Task CreateAsync(LeaveType leaveType)
     {
         await _context.LeaveTypes.AddAsync(leaveType);
         await _context.SaveChangesAsync();
     }
 
-    public async Task UpdateAsync(createLeaveTypeCommand leaveType)
+    public async Task UpdateAsync(LeaveType leaveType)
     {
         _context.LeaveTypes.Update(leaveType);
         await _context.SaveChangesAsync();

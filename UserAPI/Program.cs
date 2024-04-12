@@ -1,31 +1,27 @@
 
 
-global using UserApi.BLL.Implementations;
-global using UserApi.BLL.Interfaces;
-global using UserApi.DAL.Contracts;
-global using UserApi.DAL.Repositories;
-using UserApi.BLL;
-
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.WebHost.UseUrls("http://localhost:5240");
 
 
-// Add services to the container.
-
+builder.Services.AddCarter();
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
+});
 
-// Dependeny Injection of DbContext Class
+
 
 builder.Services.AddDbContext<PocDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ILeaveTypeRepository, LeaveTypeRepository>();
 builder.Services.AddScoped<IUserService,UserService>();
 builder.Services.AddScoped<ILeaveTypeService, LeaveTypeService>();
+builder.Services.AddScoped<IMediator, Mediator>();
 builder.Services.AddApplicationServices();
 
 var app = builder.Build();
@@ -51,6 +47,9 @@ if (app.Environment.IsDevelopment())
 app.UseAuthorization();
 
 app.MapControllers();
+app.MapCarter();
+app.MapCarter();
+
 
 app.Run();
 

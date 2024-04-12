@@ -2,9 +2,9 @@
 
 public interface ILeaveTypeService
 {
-    Task<IEnumerable<createLeaveTypeCommand>> GetAllLeaveTypesAsync();
-    Task<createLeaveTypeCommand> GetLeaveTypeByIdAsync(int id);
-    Task CreateLeaveTypeAsync(createLeaveTypeCommand leaveType);
-    Task UpdateLeaveTypeAsync(createLeaveTypeCommand leaveType);
+    Task<IEnumerable<LeaveType>> GetAllLeaveTypesAsync();
+    Task<LeaveType> GetLeaveTypeByIdAsync(int id);
+    Task CreateLeaveTypeAsync(LeaveType leaveType);
+    Task UpdateLeaveTypeAsync(LeaveType leaveType);
     Task DeleteLeaveTypeAsync(int id);
 }

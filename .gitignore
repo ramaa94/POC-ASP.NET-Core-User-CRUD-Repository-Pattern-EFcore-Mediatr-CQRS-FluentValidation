@@ -1,13 +1,16 @@
 ﻿# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
 [Bb]in/
 [Oo]bj/
-
+bin/
+obj/
 # Logs
 Logs/
 
 # Generated files
 project.lock.json
 .vs/
+# Properties folder
+Properties/
 
 # mstest test results
 TestResults
@@ -18,12 +21,18 @@ TestResults
 # User-specific files
 *.suo
 *.user
+*.userosscache
 *.sln.docstates
 
 # Build results
 [Dd]ebug/
 [Rr]elease/
 x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
 *_i.c
 *_p.c
 *.ilk
@@ -44,17 +53,23 @@ x64/
 *.vssscc
 .builds
 
+# Visual Studio cache/options directory
+.vs/
+
 # Visual C++ cache files
 ipch/
 *.aps
 *.ncb
 *.opensdf
 *.sdf
+*.cachefile
+
 
 # Visual Studio profiler
 *.psess
 *.vsp
 *.vspx
+*.sap
 
 # Guidance Automation Toolkit
 *.gpState

@@ -14,7 +14,7 @@
         public async Task<Unit> Handle(DeleteLeaveTypeCommand request, CancellationToken cancellationToken)
         {
             
-            var leaveTypeToDelete = _mapper.Map<UserApi.DAL.Models.createLeaveTypeCommand>(request);
+            var leaveTypeToDelete = _mapper.Map<UserApi.DAL.Models.LeaveType>(request);
             await _leaveTypeRepository.DeleteAsync(leaveTypeToDelete.Id);
 
 

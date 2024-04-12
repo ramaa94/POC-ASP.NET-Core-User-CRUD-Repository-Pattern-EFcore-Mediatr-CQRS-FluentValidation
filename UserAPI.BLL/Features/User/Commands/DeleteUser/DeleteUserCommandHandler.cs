@@ -14,7 +14,7 @@ public class DeleteUserCommandHandler : IRequestHandler<DeleteUserCommand, Unit>
     {
 
         var UserToDelete = _mapper.Map<UserApi.DAL.Models.User>(request);
-        await _UserRepository.DeleteAsyncUser(UserToDelete);
+        await _UserRepository.DeleteAsync(UserToDelete.UserID);
 
 
         return Unit.Value;

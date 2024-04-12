@@ -5,9 +5,8 @@ namespace UserAPI.BLL.Features.Commands.CreateUser;
 public class CreateUserValidator : AbstractValidator<CreateUserCommand>
 
 {
-    private readonly IUserRepository _userRepository;
 
-    public CreateUserValidator(IUserRepository userRepository)
+    public CreateUserValidator()
     {
         RuleFor(p => p.Name)
             .NotEmpty().WithMessage("{PropertyName} is required")
@@ -16,14 +15,7 @@ public class CreateUserValidator : AbstractValidator<CreateUserCommand>
         RuleFor(p => p.Email)
             .NotEmpty().WithMessage("Email is required.")
             .EmailAddress().WithMessage("Invalid email address.");
-        RuleFor(p => p)
-            .MustAsync(UserNameUnique)
-            .WithMessage("alredy exists");
-       this._userRepository = userRepository;
     }
 
-    private  Task<bool> UserNameUnique(CreateUserCommand command, CancellationToken token)
-    {
-        return  _userRepository.IsUserUnique(command.UserID);
-            }
+   
 }

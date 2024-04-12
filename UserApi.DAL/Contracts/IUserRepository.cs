@@ -8,10 +8,4 @@ public interface IUserRepository
     Task<bool> UpdateAsync(User user);
     Task<bool> DeleteAsync(Guid id);
 
-    Task<bool> DeleteAsyncUser(User user);
-    Task<int> SaveChangesAsync();
-    EntityEntry<User> Entry(User user);
-   Task<bool> IsUserUnique(Guid id);
-
-
 }

@@ -13,7 +13,7 @@ public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, Guid>
     public async Task<Guid> Handle(CreateUserCommand request, CancellationToken cancellationToken)
     {
         //validate data
-        var validator = new CreateUserValidator(_UserRepository);
+        var validator = new CreateUserValidator();
         var validationRes = await validator.ValidateAsync(request);
         //if (validationRes.Errors.Any()) 
         if (!validationRes.IsValid)

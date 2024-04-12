@@ -8,7 +8,8 @@ internal class LeaveTypeProfile :Profile
 {
     public LeaveTypeProfile()
     {
-        CreateMap<LeaveTypeDto,createLeaveTypeCommand>().ReverseMap();
+        CreateMap<LeaveTypeDto,LeaveType>().ReverseMap();
+        CreateMap<CreateLeaveTypeCommand, LeaveType>();
 
     }
 }

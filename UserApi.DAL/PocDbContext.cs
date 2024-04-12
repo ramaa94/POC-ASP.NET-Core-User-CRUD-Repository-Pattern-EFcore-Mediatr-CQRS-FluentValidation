@@ -3,7 +3,7 @@ namespace UserApi.DAL;
 public class PocDbContext : DbContext
 {
     public DbSet<User> Users { get; set; }
-    public DbSet<createLeaveTypeCommand> LeaveTypes { get; set; }
+    public DbSet<LeaveType> LeaveTypes { get; set; }
 
     public PocDbContext(DbContextOptions option) : base(option) { }
 

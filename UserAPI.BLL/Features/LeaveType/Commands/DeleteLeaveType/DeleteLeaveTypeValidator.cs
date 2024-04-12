@@ -3,13 +3,11 @@
 {
     public class DeleteLeaveTypeValidator:AbstractValidator<DeleteLeaveTypeCommand>
     {
-        private readonly ILeaveTypeRepository _leaveTypeRepository;
 
-        public DeleteLeaveTypeValidator(ILeaveTypeRepository LeaveTypeRepository)
+        public DeleteLeaveTypeValidator()
         {
             RuleFor(p => p.Id)
                 .NotNull();
-            this._leaveTypeRepository = LeaveTypeRepository;
         }
     }
 }

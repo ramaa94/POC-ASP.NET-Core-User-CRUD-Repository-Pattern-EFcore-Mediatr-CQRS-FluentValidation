@@ -10,22 +10,22 @@ public class LeaveTypeService : ILeaveTypeService
         _leaveTypeRepository = leaveTypeRepository;
     }
 
-    public async Task<IEnumerable<createLeaveTypeCommand>> GetAllLeaveTypesAsync()
+    public async Task<IEnumerable<LeaveType>> GetAllLeaveTypesAsync()
     {
         return await _leaveTypeRepository.GetAllAsync();
     }
 
-    public async Task<createLeaveTypeCommand> GetLeaveTypeByIdAsync(int id)
+    public async Task<LeaveType> GetLeaveTypeByIdAsync(int id)
     {
         return await _leaveTypeRepository.GetByIdAsync(id);
     }
 
-    public async Task CreateLeaveTypeAsync(createLeaveTypeCommand leaveType)
+    public async Task CreateLeaveTypeAsync(LeaveType leaveType)
     {
         await _leaveTypeRepository.CreateAsync(leaveType);
     }
 
-    public async Task UpdateLeaveTypeAsync(createLeaveTypeCommand leaveType)
+    public async Task UpdateLeaveTypeAsync(LeaveType leaveType)
     {
         await _leaveTypeRepository.UpdateAsync(leaveType);
     }
