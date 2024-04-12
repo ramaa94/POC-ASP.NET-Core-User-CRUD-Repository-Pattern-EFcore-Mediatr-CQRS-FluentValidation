@@ -1214,3 +1214,4 @@ C:\Users\ASUS\Desktop\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Media
 C:\Users\ASUS\Desktop\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\UserAPI\obj\Debug\net6.0\UserAPI.dll
 C:\Users\ASUS\Desktop\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\UserAPI\obj\Debug\net6.0\refint\UserAPI.dll
 C:\Users\ASUS\Desktop\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EFcore-Mediatr-CQRS-FluentValidation\UserAPI\obj\Debug\net6.0\UserAPI.pdb
+C:\Users\Rama\Desktop\Pc\POC-ASP.NET-Core-User-CRUD-Repository-Pattern-EF-Core-\UserAPI\bin\Debug\net6.0\Carter.dll

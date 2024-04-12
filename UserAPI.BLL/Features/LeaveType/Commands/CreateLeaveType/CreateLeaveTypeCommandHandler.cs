@@ -27,7 +27,7 @@ namespace UserAPI.BLL.Features.LeaveType.Queries.GetAllLeaveTypes
 
                 throw new BadRequestException(errorMessage, validationRes);
             //convert to domain entity obj
-            var leaveTypeToCreate = _mapper.Map<UserApi.DAL.Models.LeaveType>(request);
+            var leaveTypeToCreate = _mapper.Map<UserApi.DAL.Models.createLeaveTypeCommand>(request);
             //add to db 
 
             await _leaveTypeRepository.CreateAsync(leaveTypeToCreate);

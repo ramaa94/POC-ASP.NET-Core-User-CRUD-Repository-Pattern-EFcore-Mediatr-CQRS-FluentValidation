@@ -7,4 +7,9 @@ global using System.Threading.Tasks;
 global using UserApi.DAL;
 global using UserApi.DAL.Models;
 global using Microsoft.EntityFrameworkCore.ChangeTracking;
-
+global using Carter;
+global using MediatR;
+global using UserAPI.BLL.Features.Commands.CreateUser;
+global using UserAPI.BLL.Features.Commands.DeleteUser;
+global using UserAPI.BLL.Features.User.Commands.UpdateUser;
+global using UserAPI.BLL.Features.User.query.GetAllUsers;

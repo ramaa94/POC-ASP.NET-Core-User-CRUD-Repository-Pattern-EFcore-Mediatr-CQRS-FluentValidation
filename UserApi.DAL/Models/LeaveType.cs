@@ -1,6 +1,6 @@
 ﻿namespace UserApi.DAL.Models;
 
-public class LeaveType : BaseEntity
+public class createLeaveTypeCommand : BaseEntity
 {
     public int Id { get; set; }
 

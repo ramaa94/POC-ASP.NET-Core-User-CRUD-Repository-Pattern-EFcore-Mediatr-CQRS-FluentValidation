@@ -2,9 +2,9 @@
 
 global using UserApi.BLL.Implementations;
 global using UserApi.BLL.Interfaces;
-
 global using UserApi.DAL.Contracts;
 global using UserApi.DAL.Repositories;
+using UserApi.BLL;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -26,18 +26,19 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ILeaveTypeRepository, LeaveTypeRepository>();
 builder.Services.AddScoped<IUserService,UserService>();
 builder.Services.AddScoped<ILeaveTypeService, LeaveTypeService>();
+builder.Services.AddApplicationServices();
 
 var app = builder.Build();
 
 
-// Apply migrations
+//Apply migrations
 
-using (var scope = app.Services.CreateScope())
-{
-    var services = scope.ServiceProvider;
-    var dbContext = services.GetRequiredService<PocDbContext>();
-    dbContext.Database.Migrate();
-}
+//using (var scope = app.Services.CreateScope())
+//{
+//    var services = scope.ServiceProvider;
+//    var dbContext = services.GetRequiredService<PocDbContext>();
+//    dbContext.Database.Migrate();
+//}
 
 
 // Configure the HTTP request pipeline.

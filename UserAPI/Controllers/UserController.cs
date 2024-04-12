@@ -1,12 +1,7 @@
 ﻿
-using Carter;
-using MediatR;
-using UserAPI.BLL.Features.Commands.CreateUser;
-using UserAPI.BLL.Features.Commands.DeleteUser;
-using UserAPI.BLL.Features.User.Commands.UpdateUser;
-using UserAPI.BLL.Features.User.query.GetAllUsers;
 
 namespace UserAPI.Controllers;
+//[ApiController]
 
 public class UserController : ControllerBase, ICarterModule
 {
@@ -24,17 +19,22 @@ public class UserController : ControllerBase, ICarterModule
     {
 
         app.MapPost("/User/create", CreateUser);
-        app.MapGet("/User/{id}", GetAllUsers);
-
+        app.MapGet("/User/", GetAllUsers);
         //app.MapGet("/User/{id}", GetUserById);
         app.MapPut("/User/update/{id}", UpdateUser);
         app.MapDelete("/User/delete/{id}", DeleteUser);
     }
-    private async Task<IResult> CreateUser(User user)
-    {
+    //private async Task<IResult> CreateUser(User user)
+    //{
 
-        var command = new CreateUserCommand(user.Name, user.ContactNumber, user.Age, user.UserID, user.Email, user.PhonesNumber);
-        var userId = await _mediator.Send(command);
+    //    var command = new CreateUserCommand(user.Name, user.ContactNumber, user.Age, user.UserID, user.Email, user.PhonesNumber);
+    //    var userId = await _mediator.Send(command);
+    //    var Result = Results.Created($"/User/{userId}", $"User created with ID: {userId}");
+    //    return Result;
+    //}
+    private async Task<IResult> CreateUser(CreateUserCommand User)
+    {
+        var userId = await _mediator.Send(User);
         var Result = Results.Created($"/User/{userId}", $"User created with ID: {userId}");
         return Result;
     }
@@ -45,34 +45,38 @@ public class UserController : ControllerBase, ICarterModule
         return Results.NoContent();
 
     }
-    private async Task<IResult> UpdateUser(Guid UserId, User user)
+    private async Task<IResult> UpdateUser(UpdateUserCommand User)
     {
-        var command = new UpdateUserCommand(user.Name, user.ContactNumber, user.Age, user.Email, user.PhonesNumber);
-        var success = await _mediator.Send(command); // Send command to mediator
+        var success = await _mediator.Send(User); 
         var Resultat = Results.Ok();
 
 
         return Resultat;
     }
-    private async Task<IResult> GetAllUsers()
+    //GET: api/<UserController>
+    [HttpGet]
+    private async Task<List<UsersDto>> GetAllUsers()
     {
         var query = new GetAllUsersQuery();
         var users = await _mediator.Send(query);
+        return users;
 
-        if (users == null || users.Count == 0)
-            return Results.NotFound();
-
-        return Results.Ok(users);
     }
-}
-    //private async Task<IResult> GetUserById(int userId)
+    //private async Task<IResult> GetAllUsers()
     //{
-    //    var query = new GetOneUser(userId);
-    //    var user = await _mediator.Send(query);
+    //    var query = new GetAllUsersQuery();
+    //    var users = await _mediator.Send(query);
 
+    //    if (users == null || users.Count == 0)
+    //        return Results.NotFound();
 
-//    if (user == null)
-//        return Results.NotFound();
+    //    return Results.Ok(users);
+    //}
+}
+//public async Task<IResult> GetUserById(Guid userId)
+//{
+//    var query = new GetOneUser(userId);
+//    var user = await _mediator.Send(query);
 
 //    return Results.Ok(user);
 //}
